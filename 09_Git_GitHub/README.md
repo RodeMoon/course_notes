@@ -124,15 +124,15 @@ git push origin --delete nombre-de-la-rama
 
 # Guía básica de Github
 1. Para crear un nuevo repositorio en la nube se debe localizar la barra superior y del lado derecho identificar la siguiente sección donde yace el símbolo de suma:
-![Menú de opciones](img\1_nuevo-repositorio.jpg)
+![Menú de opciones](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/1_nuevo-repositorio.jpg?raw=true)
 2. Al dar clic se abrirá un menú con las opciones disponibles, dar clic sobre New Repository:
-![Opciones para crear nuevo contenido](img\2_nuevo-repositorio-opciones.jpg)
+![Opciones para crear nuevo contenido](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/2_nuevo-repositorio-opciones.jpg?raw=true)
 El único requisito obligatorio para crear un repositorio es darle un nombre, este puede ser cualquiera:
-![Nombramiento de repositorio](img\3_repositorio-nombre.jpg)
+![Nombramiento de repositorio](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/3_repositorio-nombre.jpg?raw=true)
 3. Además, github nos da la posibilidad de agregar una descripción si es necesario, eso dependerá del autor. También nos brinda la opción de editar la visualización del repositorio ya sea público o privado, esto repercutirá en la restricción que le demos al repositorio. 
-![Descripción y visibilidad](img\4_repositorio-desc-visibilidad.jpg)
+![Descripción y visibilidad](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/4_repositorio-desc-visibilidad.jpg?raw=true)
 4. Finalmente se da clic sobre el botón inferior para crear el repositorio:
-![Creación del repositorio](img\5_crear-repo-btn.jpg)
+![Creación del repositorio](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/5_crear-repo-btn.jpg?raw=true)
 5. Por último, para vincular el repositorio local con el repositorio remoto que se ha creado se debe escribir el siguiente comando en consola:
 ```bash
 git remote add origin direccion-del-repositorio
@@ -141,7 +141,7 @@ git remote add origin direccion-del-repositorio
 ---
 # Creación de una página web con Github
 1. Crear un nuevo repositorio y ponerle el nombre deseado para la página web.
-![Nombre de la página](img\6_repoPagina.png)
+![Nombre de la página](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/6_repoPagina.png?raw=true)
 2. Marcar la opción "Public" para que sea accesible.
 3. Activar la opción "Initialize this repository with a README".
 4. Clonar el repositorio con:
@@ -150,7 +150,7 @@ git clone https://github.com/usuario/mi-pagina-web.git
 cd mi-pagina-web
 ```
 5. Agregar un archivo index.html o buscar alguna plantilla HTML
-![Ejemplo del index.html de la página](img\7_ejemIndex.png)
+![Ejemplo del index.html de la página](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/7_ejemIndex.png?raw=true)
 6. Subir los archivos con estos comandos:
 ```bash
 git add .
@@ -158,7 +158,7 @@ git commit -m "Agregando página inicial"
 git push origin main
 ```
 7. Para activar GitHub Pages debemos ir al repositorio en GitHub. Entrar en la pestaña "Settings" y en el menú lateral, seleccionar "Pages". En Branch, elegir main y guardar. 
-![Activar página web](img\8_githubPages.png)
+![Activar página web](https://github.com/RodeMoon/course_notes/blob/main/09_Git_GitHub/img/8_githubPages.png?raw=true)
 8. Ahora el sitio estará disponible en:
 ```bash
 https://tu_usuario.github.io/mi-pagina-web/

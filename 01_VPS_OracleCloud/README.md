@@ -15,7 +15,7 @@ Se realizó la creación y configuración de un **Servidor Privado Virtual (VPS)
 1. Ir a [Oracle Cloud](https://www.oracle.com/cloud/)
 2. Hacer clic en **“Comenzar gratis”**
 3. Completar los datos de registro (nombre, correo, país, etc.)
-![Registro en Oracle Cloud](img\1_creacion_cuenta.png)
+![Registro en Oracle Cloud](\.\img\1_creacion_cuenta.png)
 4. Verificar el correo electrónico
 5. Completar los demás datos de registro así como agregar un método de pago (solo para validación, no se realiza el cobro)
 6. Agregar el segundo método de autenticación para el acceso a la cuenta, instalando en nuestro dispositivo móvil la app:
