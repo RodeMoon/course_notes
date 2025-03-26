@@ -1,7 +1,7 @@
-# Configuración del Firewall – Gestión de puertos
+# Gestión de puertos
 
 ## 📌 Introducción
-Para garantizar la seguridad y correcto funcionamiento de nuestro VPS en **Oracle Cloud**, es fundamental configurar el firewall y abrir únicamente los puertos necesarios. En este apartado, se habilitaran los puertos en la VPS esenciales como **8083 (Para la consola de Hestia), MySql (3306), HTTP (80), HTTPS (443), SSH (22) y FTP (21)**.
+Para garantizar la seguridad y correcto funcionamiento de nuestro VPS en **Oracle Cloud**, es fundamental abrir únicamente los puertos necesarios. En este apartado, se habilitaran los puertos en la VPS esenciales como **8083 (Para la consola de Hestia), MySql (3306), HTTP (80), HTTPS (443), SSH (22) y FTP (21)**.
 
 ---
 
@@ -12,17 +12,17 @@ Oracle Cloud utiliza **Reglas de Seguridad de VCN** y **Listas de Control de Acc
 1. Iniciar sesión en **[Oracle Cloud](https://cloud.oracle.com/)**.
 2. Ir a **Networking** → **Virtual Cloud Networks (VCN)**.  
 
-![Virtual Cloud Networks](img\01_VCN.png)
+![Virtual Cloud Networks](01_VCN.png)
 
 3. Seleccionar la VCN asociada a la VPS.  
 
-![Seleccionar mi VCN](img\02_myVCN.png)
+![Seleccionar mi VCN](02_myVCN.png)
 
 4. Acceder a **Security Lists** → **Default Security List**.  
 
-![Default securityList](img\03_securityList.png)  
+![Default securityList](03_securityList.png)  
 
-![Seleccionar default](img\04_defaultList.png)
+![Seleccionar default](04_defaultList.png)
 
 ### ➤ **Paso 2: Agregar reglas de entrada**
 Para permitir tráfico, agregar reglas de **Ingress (entrada)**:
@@ -37,9 +37,9 @@ Para permitir tráfico, agregar reglas de **Ingress (entrada)**:
 
 ### Ejemplo 1:  
 
-![Regla acceso 1](img\05_reglasIngreso.png)  
+![Regla acceso 1](05_reglasIngreso.png)  
 
 ### Ejemplo 2:  
 
-![Regla acceso 2](img\06_reglasIngreso.png)
+![Regla acceso 2](06_reglasIngreso.png)
 
