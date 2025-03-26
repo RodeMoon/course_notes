@@ -5,8 +5,6 @@ Se realizaron distintas prácticas con las funcionalidades de Bluetooth y WiFi c
 
 ## 📂 Contenido
 1. **[Bluetooth](Bluetooth\README.md)**
-2. **[DeepSleep](DeepSleep\leeme.txt)**
-3. **[ESPNOW](ESPNOW\Readme.md)**
+2. **[DeepSleep](DeepSleep\README.md)**
+3. **[ESPNOW](ESPNOW\README.md)**
 4. **[WiFi](WiFi\README.md)**
-
----
