@@ -42,3 +42,13 @@ Se utilizó la compra de un dominio sencillo para poder configurarlo, esto fue e
 
 ![A](07_A.png)
 
+---
+
+Para verificar que el dominio se haya propagado correctamente se utiliza la herramienta **DNS Propagator**.  
+
+Esta herramienta nos permite comprobar si los registros DNS han sido actualizados en diferentes servidores alrededor del mundo.  
+
+1. Accedee a la herramienta en el siguiente [enlace](https://www.whatsmydns.net).  
+2. Introducir el nombre del dominio y seleccionar el tipo de registro DNS a verificar (`A` o `CNAME`).  
+4. Hacer clic en el botón **Search** para comprobar la propagación.  
+ 
