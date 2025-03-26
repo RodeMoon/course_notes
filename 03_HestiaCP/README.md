@@ -8,6 +8,7 @@ Se realizó la creación y configuración del panel de Hestia para el control de
 3. **Configuración del dominio**
 4. **Configuración de HTTPS**
 5. **Configuración de Firewall**
+6. **Creación de base de datos**
 
 ---
 
@@ -58,3 +59,18 @@ v-add-letsencrypt-host
 3. Seleccionar la opción de **Reglas de entrada**, y crear cada una de las siguientes reglas (sí es que no existen) seleccionando  cada una de las opciones con su respectivo puerto **80**.  
 
 ![Reglas](07_ReglasEn.png)
+
+---
+
+## Creación de base de datos
+1. En el panel principal, seleccionar la pestaña de **DB** (Base de datos).  
+
+![Base datos](08_BaseDatos.png)
+
+2. Luego ir a **Añadir base de datos**.  
+
+![AddBase](09_AñadirBase.png)
+
+3. Para el nombre de la base de datos escribir un nombre único (por ejemplo, miweb_db), especificar un nombre de usuario (por ejemplo, admin_db). Ingresar una contraseña y dejar el host como localhost.  
+
+![Crear](10_CrearDB.png)
