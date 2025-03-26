@@ -1,7 +1,7 @@
 # Configuración de dominio
 
 ## 📌 Introducción
-Se utlizó la compra de un dominio sencillo para poder configurarlo, esto fue en la plataforma de Hostinger. 
+Se utilizó la compra de un dominio sencillo para poder configurarlo, esto fue en la plataforma de Hostinger. 
 
 ## 📂 Contenido
 1. **Compra y configuración**
@@ -24,6 +24,7 @@ Se utlizó la compra de un dominio sencillo para poder configurarlo, esto fue en
 4. Seleccionar la terminación deseada y proceder a la compra del dominio.  
 
 ![Compra](04_Compra.png)
+
 5. Una vez realizado el pago, se nos mostrará un mensaje de confirmación y se nos redirigirá a la sección de configuración del dominio.
 
 ---
