@@ -2,7 +2,7 @@
 ## 📌 Descripción
 Este repositorio contiene una recopilación de los temas estudiados en el curso de **Sistemas telemáticos**, abarcando desde la configuración de un servidor VPS hasta la programación de un ESP32 y el uso de GitHub.
 
-## 📂 Estructura del Repositorio
+## 📂 Estructura del repositorio
 El contenido está organizado en diferentes carpetas, cada una dedicada a un tema específico:
 
 1. **[VPS en Oracle Cloud](./01_VPS_OracleCloud/README.md)** – Creación y configuración de un servidor privado virtual.
