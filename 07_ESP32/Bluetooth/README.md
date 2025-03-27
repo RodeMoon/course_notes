@@ -20,3 +20,6 @@ El dispositivo Bluetooth envía mensajes: "led_on" enciende el LED. "led_off" ap
 
 ## 6. **[Control de LED con comandos](files/BT6.ino)**
 Este proyecto permite encender y apagar un LED conectado al pin GPIO 2 del ESP32 mediante comandos enviados por Bluetooth. Se utilizan los caracteres 'A' y 'B' para encender y apagar el LED, respectivamente.
+
+## 7. **[Proyecto: Dientes](files/Dientes)**
+Este proyecto implementa un sistema para enviar datos primero desde un dispositivico móvil a una ESP32 utilizando Bluetooth Serial. Una vez recibidos los datos por Bluetooth, estos se envían a la base de datos a través de PHP mediante una conexión WiFi.

@@ -13,4 +13,4 @@ Este código crea un servidor web que permite controlar un LED. Se pueden presio
 Este código crea un servidor web que permite controlar un LED que incluye botones para controlarlo y muestra imágenes que representan su estado (encendido o apagado).
 
 ## 4. **[Obtención de datos de la red](files/Wifi_2.ino)**
-Este código establece una conexión Wi-Fi y luego imprime los detalles de la conexión, como la dirección IP, la dirección MAC, la máscara de subred, la puerta de enlace y la dirección DNS.
+Este código establece una conexión Wi-Fi y luego muestra los detalles de la conexión, como la dirección IP, la dirección MAC, la máscara de subred, la puerta de enlace y la dirección DNS.

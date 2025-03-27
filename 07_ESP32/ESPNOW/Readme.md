@@ -20,14 +20,19 @@ ESP-Now es un protocolo de comunicación entre varios dispositivos creado por Es
  
 Entre las diferentes configuraciones de las que disponemos para la configuración en una dirección, podemos distinguir las siguientes:
 
-1. Un maestro y un esclavo
-2. Un maestro y varios esclavos
+1. [Un maestro y un esclavo](files/OneSlave/)
+2. [Un maestro y varios esclavos](files/MultiSlave/)
 3. Varios maestros y un esclavo
 
 ## Links de consulta 
-1. [Conexión de ESPNOW](https://www.electrosoftcloud.com/esp-now-conecta-dos-o-mas-esp32-esp8266/)
-2. [ESP-NOW with ESP32 EXPLAINED: Easiest Wireless Communication Between Boards (ESP8266 Compatible)](https://www.youtube.com/watch?v=qxwXwNS3Avw)
-3. [Protocolo de comunicación ESP-NOW (tarjeta ESP32).](https://www.youtube.com/watch?v=sX9pH0OYbKg)
-4. [Getting Started with ESP-NOW (ESP8266 NodeMCU with Arduino IDE)](https://randomnerdtutorials.com/esp-now-esp8266-nodemcu-arduino-ide/)
-5. [ESP-NOW Two-Way Communication Between ESP32 Boards](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
-6. [Que es ESP-NOW?](https://www.electrosoftcloud.com/esp-now-conecta-dos-o-mas-esp32-esp8266/)
+> [Conexión de ESPNOW](https://www.electrosoftcloud.com/esp-now-conecta-dos-o-mas-esp32-esp8266/)
+
+> [ESP-NOW with ESP32 EXPLAINED: Easiest Wireless Communication Between Boards (ESP8266 Compatible)](https://www.youtube.com/watch?v=qxwXwNS3Avw)
+
+> [Protocolo de comunicación ESP-NOW (tarjeta ESP32).](https://www.youtube.com/watch?v=sX9pH0OYbKg)
+
+> [Getting Started with ESP-NOW (ESP8266 NodeMCU with Arduino IDE)](https://randomnerdtutorials.com/esp-now-esp8266-nodemcu-arduino-ide/)
+
+> [ESP-NOW Two-Way Communication Between ESP32 Boards](https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/)
+
+> [Que es ESP-NOW?](https://www.electrosoftcloud.com/esp-now-conecta-dos-o-mas-esp32-esp8266/)
